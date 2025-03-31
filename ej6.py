@@ -1,0 +1,22 @@
+var nombre = "Fernandito"
+var nivel = 7
+var vida = 700
+
+nombre = "Fernandito"
+nivel = 7
+vida = 700
+
+vida += 10
+print("vida actual:", vida)
+
+mensaje = "El personaje " + nombre + " está en el nivel " + str(nivel)
+print(mensaje)
+
+var nombre_usuario = input("Introduce el nombre del personaje: ")
+print("Bienvenido, " + nombre_usuario)
+
+if vida < 50:
+    print("Peligro: vida baja")
+
+var personajes = ["Alex", "Mia", "Leo", "Sofi", "Dani"]
+print(personajes[0])
